@@ -39,9 +39,9 @@
 
         raise_layer {
             bindings = <
-&kp trans   &kp EXCL   &kp AT     &kp HASH    &kp DLLR       &kp PRCNT      &kp CARET        &kp AMPS       &kp ASTRK   &kp LPAR   &kp RPAR      &kp PIPE
-&kp trans   &trans     &trans     &trans      &trans         &trans         &trans           &kp MINUS      &kp PLUS    &kp LBRC   &kp RBRC      &kp GRAVE
-&kp trans   &trans     &trans     &trans      &trans         &trans         &trans           &trans         &bt BT_PRV  &bt BT_CLR &bt BT_NXT    &trans
+&trans      &kp EXCL   &kp AT     &kp HASH    &kp DLLR       &kp PRCNT      &kp CARET        &kp AMPS       &kp ASTRK   &kp LPAR   &kp RPAR      &kp PIPE
+&trans      &trans     &trans     &trans      &trans         &trans         &trans           &kp MINUS      &kp PLUS    &kp LBRC   &kp RBRC      &kp GRAVE
+&trans      &trans     &trans     &trans      &trans         &trans         &trans           &trans         &bt BT_PRV  &bt BT_CLR &bt BT_NXT    &trans
 &trans      &trans     &trans     &trans      &trans                &trans                   &trans         &trans      &trans     &trans        &trans
             >;
         };
